@@ -91,11 +91,11 @@ cd SafenetAI/project
 ### 2. Install Dependencies
 ```bash
 # Frontend
-yarn install # or npm install
+npm i
 
 # Backend
 cd ../server
-npm install
+npm i
 ```
 
 ### 3. Environment Variables
@@ -125,7 +125,7 @@ node index.js
 ### 5. Run the Frontend
 ```bash
 cd project
-yarn dev # or npm run dev
+npm run dev
 ```
 
 - Frontend: http://localhost:5173
