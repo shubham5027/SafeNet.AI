@@ -1,5 +1,9 @@
 # SafeNet.AI Platform
 
+Project Name & Team Members
+SafeNet.AI
+Team: Solo Developer – Shubham Kumbhar
+
 SafeNet.AI is a next-generation civic safety intelligence platform that leverages AI, real-time data, and community reporting to provide actionable insights, threat analysis, and live incident mapping for public safety and emergency response.
 
 ---
