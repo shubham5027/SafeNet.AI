@@ -57,10 +57,11 @@ export default function Chatbot() {
         <div className="sticky top-0 z-10 bg-slate-900/95 rounded-t-2xl border-b border-slate-800 px-6 py-4 flex flex-col gap-1">
           <div className="flex items-center gap-2">
             <span>{mode === 'emergency' ? <AlertTriangle className="inline h-6 w-6 text-red-400" /> : <MessageCircle className="inline h-6 w-6 text-blue-400" />}</span>
-            <span className="text-2xl font-bold text-white">Gemini Assistant</span>
+            <span className="text-2xl font-bold text-white">AI Assistant</span>
           </div>
           <div className="text-xs text-slate-400 mt-1">
-            Powered by <strong>Google Gemini AI</strong>. Don't share sensitive personal info. For emergencies, call local authorities.
+            <strong>Don't share sensitive personal info. For emergencies, call local authorities.
+        </strong>
           </div>
           <div className="flex gap-2 mt-2">
             <button onClick={() => setMode('emergency')} className={`px-3 py-1 rounded-full text-xs font-semibold transition ${mode==='emergency'?'bg-red-600 text-white':'bg-slate-800 text-slate-200 hover:bg-red-900/40'}`}>🆘 Emergency</button>

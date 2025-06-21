@@ -432,7 +432,7 @@ export default function ReportIncident() {
             <div className="text-sm text-slate-300">
               <p className="font-medium mb-1">Data Storage Notice:</p>
               <p>
-                Reports are securely stored in Supabase and automatically analyzed by AI for threat assessment. 
+                Reports are securely stored in MongoDB and automatically analyzed by AI for threat assessment. 
                 Images are uploaded to encrypted storage. For immediate emergencies, please contact local emergency services directly.
               </p>
             </div>
